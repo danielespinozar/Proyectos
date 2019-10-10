@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aumenta360.cl/sitemap.xml

@@ -1,0 +1,449 @@
+
+  body, html {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+.full-layout {
+background: #23475b;
+/* color: white; */
+padding: 32px 15px;
+display: grid;
+/* grid-template:  */
+grid-template-columns: minmax(auto, 1200px);
+justify-content: center;
+
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 250px 150px 1fr 1fr;
+  grid-template-areas:"item-imagen-perfil-principal item-imagen-perfil-principal item-titulo-principal item-titulo-principal item-titulo-principal item-titulo-principal"
+                      "item-informacion-personal item-informacion-personal item-experiencia-laboral item-experiencia-laboral item-experiencia-laboral item-experiencia-laboral" 
+                      "item-informacion-personal item-informacion-personal item-fecha-timeline item-texto-timeline item-texto-timeline item-texto-timeline"
+                      "item-informacion-personal item-informacion-personal item-fecha2-timeline item-texto2-timeline item-texto2-timeline item-texto2-timeline"
+                      "item-informacion-personal item-informacion-personal item-fecha3-timeline item-texto3-timeline item-texto3-timeline item-texto3-timeline"
+                      "item-informacion-personal item-informacion-personal item-informacion-academica-titulo item-informacion-academica-titulo item-informacion-academica-titulo item-informacion-academica-titulo" 
+                      "item-informacion-personal item-informacion-personal item-fecha-academica-timeline item-text-academica-timeline item-text-academica-timeline item-text-academica-timeline"
+                      "item-informacion-personal item-informacion-personal item-fecha2-academica-timeline item-text2-academica-timeline item-text2-academica-timeline item-text2-academica-timeline"
+                      "item-informacion-personal item-informacion-personal item-titulo-cursos item-titulo-cursos item-titulo-referencias item-titulo-referencias" 
+                      "item-informacion-personal item-informacion-personal item-titulo-proyectos item-titulo-proyectos item-titulo-blanco item-titulo-blanco";
+
+  /* grid-gap: 10px; */
+
+}
+
+/* ITEM DE LOS NUEVOS GRID!!!!!! */
+
+.item-imagen-perfil-principal {
+  grid-area: item-imagen-perfil-principal;
+  padding: 10px;  
+  background: #2e353f;    
+}
+
+
+.item-titulo-principal {
+  grid-area: item-titulo-principal;
+  padding: 10% 1% 1% 5%;
+  background: #ffffff;
+}
+
+.item-informacion-personal {
+  grid-area: item-informacion-personal;
+  padding: 5% 15% 5% 15%;
+  color: white;
+  background: #2e353f;
+}
+
+.item-informacion-academica-titulo {
+  grid-area: item-informacion-academica-titulo; 
+  padding: 2% 15% 2% 5%;
+  color: black;
+  background: #ffffff;
+}
+
+.item-fecha-academica-timeline {
+  grid-area: item-fecha-academica-timeline;
+  padding-left: 7%;
+  color: #2484c6;
+  background: #ffffff;
+}
+.item-text-academica-timeline {
+  grid-area: item-text-academica-timeline;
+  padding: 0% 15% 3% 2%;
+  color: #434343;
+  background: #ffffff;
+}
+.item-fecha2-academica-timeline {
+  grid-area: item-fecha2-academica-timeline;
+  padding-left: 7%;
+  color: #2484c6;
+  background: #ffffff;
+}
+.item-text2-academica-timeline {
+  grid-area: item-text2-academica-timeline;
+  padding: 0% 15% 3% 2%;
+  color: #434343;
+  background: #ffffff;
+}
+
+.item-experiencia-laboral {
+  grid-area: item-experiencia-laboral; 
+  padding: 2% 15% 2% 5%;
+  color: black;
+  background: #ffffff;
+}
+
+.item-fecha-timeline {
+  grid-area: item-fecha-timeline;
+  padding-left: 7%;
+  color: #2484c6;
+  background: #ffffff;
+
+}
+.item-fecha-timeline strong {
+  color: #434343;
+  font-size: 16px;
+}
+
+.item-texto-timeline {
+  grid-area: item-texto-timeline;
+  padding: 0% 15% 3% 2%;
+  color: #434343;
+  background: #ffffff;
+}
+
+.item-fecha2-timeline {
+  grid-area: item-fecha2-timeline;
+  padding-left: 7%;
+  color: #2484c6;
+  background: #ffffff;
+}
+.item-fecha2-timeline strong {
+  color: #434343;
+  font-size: 16px;
+}
+
+.item-texto2-timeline {
+  grid-area: item-texto2-timeline;
+  padding: 0% 15% 3% 2%;
+  color: #434343;
+  background: #ffffff;
+}
+.item-fecha3-timeline {
+  grid-area: item-fecha3-timeline;
+  padding-left: 7%;
+  color: #2484c6;
+  background: #ffffff;
+}
+.item-fecha3-timeline strong {
+  color: #434343;
+  font-size: 16px;
+}
+
+.item-texto3-timeline {
+  grid-area: item-texto3-timeline;
+  padding: 0% 15% 3% 2%;
+  color: #434343;
+  background: #ffffff;
+}
+
+.item-titulo-cursos {
+  grid-area: item-titulo-cursos; 
+  padding: 2% 15% 5% 10%;
+  color: black;
+  background: #ffffff;
+}
+.item-titulo-referencias {
+  grid-area: item-titulo-referencias; 
+  padding: 2% 15% 2% 5%;
+  color: black;
+  background: #ffffff;
+}
+
+.item-titulo-proyectos {
+  grid-area: item-titulo-proyectos; 
+  padding: 2% 15% 5% 10%;
+  color: black;
+  background: #ffffff;
+}
+
+.item-titulo-blanco {
+  grid-area: item-titulo-blanco; 
+  padding: 2% 15% 5% 10%;
+  color: black;
+  background: #ffffff;
+}
+
+.item-proyectos {
+
+}
+
+.item-cursos {
+
+}
+
+.item-referencias {
+
+}
+
+.interlineado {
+  margin-top: 30px;
+}
+
+
+
+/* FIN DE LOS NUEVOS GRID!!!!!! */
+
+.linea {
+  margin-top:7px;
+  margin-bottom: 14px;
+  height: 2px;
+  background-color: #2484c6;
+}       
+
+.item {
+  /* background: #ffffff; */
+  padding: 10px;
+  /* border: 1px solid red; */
+  /* position: relative;
+  display: block; */
+}
+
+
+
+.imagen-perfil {
+  margin: 60px 60px 40px 60px;
+  /* position:absolute; */
+  
+}
+
+/* .item-imagen-perfil img {
+  height: 50%;
+} */
+
+.imagen-perfil img{
+  width: 90%;
+  height: 90%;
+  /* vertical-align: center; */
+  /* justify-content: center; */
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+
+.text-nombre {
+  font-size: 60px;
+  color: #3e3e3f;
+}
+.text-apellido {
+  font-size: 60px;
+  color: #2484c6;
+}
+.text-grado {
+  padding-top: 2%;
+  font-size: 25px;
+  color: #3e3e3f;
+}
+
+.item-profesional {
+  padding: 5% 15% 5% 15%;
+  color: white;
+  
+}
+
+
+.text-titulo-perfil-profesional {
+  font-size: 20px;
+  /* margin: 10% 0 0 0; */
+}
+.text-titulo-informacion-personal {
+  font-size: 20px;
+  margin: 10% 0 0 0;
+}
+.text-titulo-skills {
+  font-size: 20px;
+  margin: 10% 0 0 0;
+}
+
+.text-skills {
+  font-size: 14px;
+  line-height: 1.5;
+  /* font-weight:100; */
+}
+
+
+
+
+.text-skills p{
+  margin: 3px 0;
+}
+.text-textoperfil {
+  font-size: 14px;
+  line-height: 1.5;
+  /* font-weight:100; */
+}
+
+
+.text-textoperfil p{
+  margin: 3px 0;
+}
+
+.item-formacion {
+  padding: 2% 15% 5% 5%;
+  color: black;
+}
+
+.text-titulo-formacion {
+  font-size: 20px;
+  color: #434343;
+}
+
+
+
+.line-timeline-formacion {
+
+  /* border-left: 2px solid #2484c6; */
+}
+
+.pelota-timeline {
+  width: 10px;
+  height: 10px;
+  /* margin-left: -6px; */
+  /* margin-top: 6px; */
+  border-radius: 50%;
+  background-color: #2484c6;
+  /* transition-duration: 1s; */
+  /* Propiedad para que reacciones mas suave */
+  /* transition-timing-function: ease; */
+}
+
+.text-timeline-formacion {
+  padding-left: 10%;
+}
+
+.item-timeline-formacion1 {
+  padding: 2% 15% 5% 0%;
+  /* border-left: 2px solid #2484c6; */
+  padding-left: 20%;
+  color: #2484c6;
+}
+
+.item-texto-formacion1 {
+  padding: 0% 15% 5% 2%;
+}
+.item-timeline-formacion2 {
+  padding: 2% 15% 5% 0%;
+  /* border-left: 2px solid #2484c6; */
+  padding-left: 20%;
+  color: #2484c6;
+}
+
+.item-texto-formacion2 {
+  padding: 0% 15% 5% 2%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .text-nombre {
+        font-size: 2.2em;
+    }
+    
+    .text-apellido {
+        font-size: 2.2em;
+    }
+    
+    .text-grado {
+        font-size: 1.2em;
+    }
+    
+    
+
+  .imagen-perfil img{
+    width: 100%;
+    height: 100%;
+    /* padding: 1px;; */
+    /* vertical-align: center; */
+    /* justify-content: center; */
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .item-imagen-perfil-principal {
+    background-color: #ffffff;
+     padding: 0; 
+  }
+
+  .item-titulo-principal {
+    /* padding-bottom: 30px; */
+  }
+
+  .item-informacion-personal{
+    /* padding-top: 90px; */
+    background-color: #ffffff;
+    color: #2e353f;
+    padding: 5% 5% 5% 5%;
+      
+  }
+
+  .item-informacion-personal p{
+    font-size: 1.3em;
+  }
+
+.item-titulo-cursos {
+  padding: 2% 15% 2% 5%;
+  color: black;
+  background: #ffffff;
+}
+.item-titulo-referencias {
+  padding: 2% 15% 2% 5%;
+  color: black;
+  background: #ffffff;
+}
+
+.item-titulo-proyectos {
+  padding: 2% 15% 2% 5%;
+  color: black;
+  background: #ffffff;
+}
+
+  .container-grid {
+  grid-template-columns: 120px 1fr;
+
+  /* grid-template-areas:"paragraph paragraph paragraph "
+                      "one text-one text-one"
+                      "two text-two text-two"
+                      "three text-three text-three"
+                      "form form form"
+                      "cert cert cert"; */
+
+  grid-template-areas:"item-titulo-principal item-titulo-principal"
+                      "item-imagen-perfil-principal item-imagen-perfil-principal"
+                      "item-informacion-personal item-informacion-personal"
+                      "item-experiencia-laboral item-experiencia-laboral"
+                      "item-fecha-timeline item-texto-timeline"
+                      "item-fecha2-timeline item-texto2-timeline"
+                      "item-fecha3-timeline item-texto3-timeline"
+                      "item-informacion-academica-titulo item-informacion-academica-titulo"
+                      "item-fecha-academica-timeline item-text-academica-timeline"
+                      "item-fecha2-academica-timeline item-text2-academica-timeline"
+                      "item-titulo-cursos item-titulo-cursos"
+                      "item-titulo-referencias item-titulo-referencias"
+                      "item-titulo-proyectos item-titulo-proyectos";
+                      /* "item-informacion-personal item-informacion-personal item-experiencia-laboral item-experiencia-laboral item-experiencia-laboral item-experiencia-laboral" 
+                      "item-informacion-personal item-informacion-personal item-fecha-timeline item-texto-timeline item-texto-timeline item-texto-timeline"
+                      "item-informacion-personal item-informacion-personal item-fecha2-timeline item-texto2-timeline item-texto2-timeline item-texto2-timeline"
+                      "item-informacion-personal item-informacion-personal item-fecha3-timeline item-texto3-timeline item-texto3-timeline item-texto3-timeline"
+                      "item-informacion-personal item-informacion-personal item-informacion-academica-titulo item-informacion-academica-titulo item-informacion-academica-titulo item-informacion-academica-titulo" 
+                      "item-informacion-personal item-informacion-personal item-fecha-academica-timeline item-text-academica-timeline item-text-academica-timeline item-text-academica-timeline"
+                      "item-informacion-personal item-informacion-personal item-fecha2-academica-timeline item-text2-academica-timeline item-text2-academica-timeline item-text2-academica-timeline"
+                      "item-informacion-personal item-informacion-personal item-titulo-cursos item-titulo-cursos item-titulo-referencias item-titulo-referencias" 
+                      "item-informacion-personal item-informacion-personal item-cursos item-cursos item-referencias item-referencias"
+                      "item-informacion-personal item-informacion-personal item-titulo-proyectos item-titulo-proyectos item-titulo-blanco item-titulo-blanco"; */
+
+  }
+}

@@ -1,0 +1,91 @@
+.header:not(.transparent) .header-nav.nav > li > a {
+    color: #162840;
+}
+
+.button, button, input[type='submit'], input[type='reset'], input[type='button'] {
+
+	text-transform: capitalize;}
+
+.slider-nav-light .flickity-prev-next-button {
+    color: #65d3bc;
+}
+
+.slider-nav-light .flickity-prev-next-button svg, .slider-nav-light .flickity-prev-next-button .arrow {
+    fill: #65d3bc;
+}
+
+
+.stuck .header-main .nav > li > a {
+    line-height: 1px;
+}
+
+.stuck .header-main .nav > li > a {
+    color: #162840;
+}
+
+@media (max-width: 549px){
+h2 {
+    font-size: 0.7em;
+}
+}
+
+.container-width, .full-width .ubermenu-nav, .container, .row {
+    max-width: 1280px;
+}
+body {
+    font-size: 100%!important;
+}
+
+.button.icon.circle {
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+}
+
+ul#header-contact {
+    border: solid 2px #66d3bc;
+    padding: 1px 10px;
+    border-radius: 20px;
+}
+.columna-servicios {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.20);
+    padding: 40px;
+	margin: 0 40px;
+}
+
+
+.quform-child-elements input {
+    border-radius: 10px;
+}
+textarea#quform_1_7_b9613f {
+    border-radius: 10px;
+}
+
+.nav>li>a>i {
+    vertical-align: middle;
+    transition: color .3s;
+    font-size: 24px;
+}
+a.tooltip.tooltipstered span {
+    font-size: 16px;
+}
+
+
+.author-box, entry-meta{
+display:none;
+}
+
+
+
+label, legend {
+    font-weight: 200;
+    display: block;
+    font-size: .9em;
+    margin-bottom: 0.4em;
+}
+footer.entry-meta {
+
+    display: none;
+}
